@@ -1,16 +1,11 @@
-# 🚧 README em construção 🚧
+# MongoDB Commerce
 
-<!-- Olá, Tryber!
+Projeto proposto pela Trybe, onde foi trabalhado com o banco de dados commerce, que contém dados do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas. 
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+## Instalação das dependências
 
-É essencial que você preencha esse documento por conta própria, ok?
+    npm install
+    
+## Restaurando o banco de dados commerce (execute na raiz do diretório)
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
-
--->
+    DBNAME=commerce ./scripts/resetdb.sh assets/produtos
